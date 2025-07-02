@@ -7,7 +7,6 @@ This repository contains a collection of images along with their descriptions. I
 - [Usage](#usage)
 - [Images](#images)
 - [License](#license)
-- [Contact](#contact)
 
 ## Overview
 
