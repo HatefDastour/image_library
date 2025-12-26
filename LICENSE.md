@@ -34,7 +34,7 @@ SOFTWARE.
 
 All images in this repository are copyrighted and protected under intellectual property law. This includes all files with extensions such as `.jpg`, `.png`, and other image formats.
 
-**Copyright © 2025 [Your Name/Organization]. All rights reserved.**
+**Copyright © 2025 Hatef Dastour. All rights reserved.**
 
 ### Permitted Use
 
