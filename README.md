@@ -36,37 +36,43 @@ To use the `Sample_Images.py` script, follow these steps:
 
 ## Images
 
-The following images are included in this repository:
+All images in this repository have been personally captured by Hatef Dastour and are protected by copyright.
+
+**Copyright © 2025 Hatef Dastour. All rights reserved.**
+
+These images may not be used, reproduced, or distributed without express written permission from the copyright holder.
+
+### Image Descriptions
 
 - **Lake_Como.jpg**
-  - A scenic lake located in Northern Italy’s Lombardy region, known for its picturesque surroundings and historic villages.
+  - A scenic lake located in Northern Italy's Lombardy region, known for its picturesque surroundings and historic villages.
 - **Northwest_Gate.jpg**
-  - Captures the Northwest Gate of Chongqing, China, a significant landmark in the city’s rich cultural and historical landscape.
+  - Captures the Northwest Gate of Chongqing, China, a significant landmark in the city's rich cultural and historical landscape.
 - **Qiansimen_Bridge.jpg**
   - Features the Qiansimen Bridge in Chongqing, China, a notable example of modern engineering and urban development.
 - **Lunenburg.jpg**
   - Lunenburg is a charming port town on the South Shore of Nova Scotia, Canada, famous for its well-preserved 18th-century architecture and maritime history.
 - **Rabbits.jpg**
-  - Depicts a group of rabbits at Jericho Beach Park in Vancouver, BC, Canada, showcasing the park’s natural beauty and wildlife.
+  - Depicts a group of rabbits at Jericho Beach Park in Vancouver, BC, Canada, showcasing the park's natural beauty and wildlife.
 - **Squirrel.jpg**
-  - Features a squirrel at Sea to Sky Gondola in Vancouver, BC, Canada, highlighting the area’s diverse wildlife and scenic views.
+  - Features a squirrel at Sea to Sky Gondola in Vancouver, BC, Canada, highlighting the area's diverse wildlife and scenic views.
 - **Varenna.jpg**
   - Portrays the picturesque village of Varenna on the shores of Lake Como, Italy, known for its colorful houses, narrow streets, and stunning lake views.
 - **Waterfront.jpg**
-  - This image was taken from Vancouver Waterfront, capturing the city’s vibrant urban landscape and scenic waterfront area.
+  - This image was taken from Vancouver Waterfront, capturing the city's vibrant urban landscape and scenic waterfront area.
 - **Botanical_Garden.jpg**
-  - An image of the Kunming Botanical Garden, showcasing the garden’s diverse plant species and serene natural environment.
+  - An image of the Kunming Botanical Garden, showcasing the garden's diverse plant species and serene natural environment.
 - **Calgary_Fall.jpg**
-  - An image from a neighborhood park in Calgary during the fall season, highlighting the city’s autumn colors and park scenery.
+  - An image from a neighborhood park in Calgary during the fall season, highlighting the city's autumn colors and park scenery.
 - **Hong_Kong.jpg**
   - Features Victoria Harbour in Hong Kong, a natural landform harbour separating Hong Kong Island from the Kowloon Peninsula, known for its stunning skyline, bustling port activities, and nightly light shows.
 
 ## License
 
+This repository contains both open-source code and copyrighted images. Please see the [LICENSE](LICENSE) file for complete details.
+
 ### Code
-The Python script (`Sample_Images.py`) is licensed under the [MIT License](LICENSE).
+The Python script (`Sample_Images.py`) and all code in this repository are licensed under the [MIT License](LICENSE).
 
 ### Images
-The images in this repository are licensed under the [Creative Commons Attribution 4.0 International License (CC BY 4.0)][cc-by-4.0].
-
-[cc-by-4.0]: https://creativecommons.org/licenses/by/4.0/
+All images in this repository are copyrighted by Hatef Dastour. All rights reserved. These images may not be used without express written permission. See the [LICENSE](LICENSE) file for full terms.
