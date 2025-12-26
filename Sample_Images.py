@@ -82,6 +82,6 @@ class Sample_Images:
         if name not in self.Names:
             raise ValueError(f'Image name must be one of {", ".join(self.Names)}')
 
-        # Update the URL to point to your new GitHub repository
+        # Update the URL to point to the GitHub repository
         url = f'https://raw.githubusercontent.com/HatefDastour/image_library/main/images/{name}.jpg'
         return io.imread(url)
