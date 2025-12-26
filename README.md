@@ -69,10 +69,10 @@ These images may not be used, reproduced, or distributed without express written
 
 ## License
 
-This repository contains both open-source code and copyrighted images. Please see the [LICENSE](LICENSE) file for complete details.
+This repository contains both open-source code and copyrighted images. Please see the [LICENSE](LICENSE.md) file for complete details.
 
 ### Code
-The Python script (`Sample_Images.py`) and all code in this repository are licensed under the [MIT License](LICENSE).
+The Python script (`Sample_Images.py`) and all code in this repository are licensed under the [MIT License](LICENSE.md).
 
 ### Images
-All images in this repository are copyrighted by Hatef Dastour. All rights reserved. These images may not be used without express written permission. See the [LICENSE](LICENSE) file for full terms.
+All images in this repository are copyrighted by Hatef Dastour. All rights reserved. These images may not be used without express written permission. See the [LICENSE](LICENSE.md) file for full terms.
