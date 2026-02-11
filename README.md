@@ -1,78 +1,152 @@
 # Image Library
 
-This repository contains a collection of images along with their descriptions. It includes a Python script (`Sample_Images.py`) that provides methods to read and describe these images.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
+[![Python](https://img.shields.io/badge/Python-3.6%2B-blue.svg?style=flat-square)](https://www.python.org/)
+[![Images](https://img.shields.io/badge/Images-11-green.svg?style=flat-square)](#images)
 
-## Table of Contents
-- [Overview](#overview)
-- [Usage](#usage)
-- [Images](#images)
-- [License](#license)
+A curated collection of personal photography with a Python utility for easy access and description retrieval. All images are personally captured by Dr. Hatef Dastour.
 
-## Overview
+---
 
-This repository is designed to provide a simple way to access and describe a set of images. The `Sample_Images.py` script allows you to read images and retrieve their descriptions.
+## 📸 Overview
 
-## Usage
+This repository provides:
+- High-quality photographs from various locations worldwide
+- Python interface (`Sample_Images.py`) for programmatic access
+- Detailed descriptions and metadata for each image
+- Easy integration for educational and demonstration purposes
 
-To use the `Sample_Images.py` script, follow these steps:
+---
 
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/HatefDastour/image_library.git
-   ```
+## 🚀 Quick Start
 
-2. **Navigate to the Repository**:
-   ```bash
-   cd image_library
-   ```
+### Installation
 
-3. **Run the Script**:
-   ```python
-   from Sample_Images import Sample_Images
+```bash
+# Clone the repository
+git clone https://github.com/HatefDastour/image_library.git
+cd image_library
+```
 
-   images = Sample_Images()
-   image_matrix = images.read_image('Lake_Como')
-   ```
+### Usage
 
-## Images
+```python
+from Sample_Images import Sample_Images
 
-All images in this repository have been personally captured by Hatef Dastour and are protected by copyright.
+# Initialize the image library
+images = Sample_Images()
 
-**Copyright © 2025 Hatef Dastour. All rights reserved.**
+# Read an image
+image_matrix = images.read_image('Lake_Como')
 
-These images may not be used, reproduced, or distributed without express written permission from the copyright holder.
+# Get image description
+description = images.get_description('Lake_Como')
 
-### Image Descriptions
+# List all available images
+available_images = images.list_images()
+```
 
-- **Lake_Como.jpg**
-  - A scenic lake located in Northern Italy's Lombardy region, known for its picturesque surroundings and historic villages.
-- **Northwest_Gate.jpg**
-  - Captures the Northwest Gate of Chongqing, China, a significant landmark in the city's rich cultural and historical landscape.
-- **Qiansimen_Bridge.jpg**
-  - Features the Qiansimen Bridge in Chongqing, China, a notable example of modern engineering and urban development.
-- **Lunenburg.jpg**
-  - Lunenburg is a charming port town on the South Shore of Nova Scotia, Canada, famous for its well-preserved 18th-century architecture and maritime history.
-- **Rabbits.jpg**
-  - Depicts a group of rabbits at Jericho Beach Park in Vancouver, BC, Canada, showcasing the park's natural beauty and wildlife.
-- **Squirrel.jpg**
-  - Features a squirrel at Sea to Sky Gondola in Vancouver, BC, Canada, highlighting the area's diverse wildlife and scenic views.
-- **Varenna.jpg**
-  - Portrays the picturesque village of Varenna on the shores of Lake Como, Italy, known for its colorful houses, narrow streets, and stunning lake views.
-- **Waterfront.jpg**
-  - This image was taken from Vancouver Waterfront, capturing the city's vibrant urban landscape and scenic waterfront area.
-- **Botanical_Garden.jpg**
-  - An image of the Kunming Botanical Garden, showcasing the garden's diverse plant species and serene natural environment.
-- **Calgary_Fall.jpg**
-  - An image from a neighborhood park in Calgary during the fall season, highlighting the city's autumn colors and park scenery.
-- **Hong_Kong.jpg**
-  - Features Victoria Harbour in Hong Kong, a natural landform harbour separating Hong Kong Island from the Kowloon Peninsula, known for its stunning skyline, bustling port activities, and nightly light shows.
+---
 
-## License
+## 🖼️ Image Gallery
 
-This repository contains both open-source code and copyrighted images. Please see the [LICENSE](LICENSE.md) file for complete details.
+### Available Images
 
-### Code
-The Python script (`Sample_Images.py`) and all code in this repository are licensed under the [MIT License](LICENSE.md).
+| Image Name | Location | Description |
+|------------|----------|-------------|
+| **Lake_Como** | Lombardy, Italy | Scenic lake in Northern Italy, known for picturesque surroundings and historic villages |
+| **Varenna** | Lake Como, Italy | Colorful village with narrow streets and stunning lake views |
+| **Northwest_Gate** | Chongqing, China | Significant landmark showcasing the city's cultural and historical landscape |
+| **Qiansimen_Bridge** | Chongqing, China | Modern engineering marvel and urban development example |
+| **Hong_Kong** | Victoria Harbour | Natural harbour with stunning skyline and bustling port activities |
+| **Lunenburg** | Nova Scotia, Canada | Charming port town with well-preserved 18th-century architecture |
+| **Waterfront** | Vancouver, BC | Vibrant urban landscape and scenic waterfront |
+| **Rabbits** | Jericho Beach Park, Vancouver | Natural beauty and wildlife at the park |
+| **Squirrel** | Sea to Sky Gondola, Vancouver | Diverse wildlife and scenic mountain views |
+| **Botanical_Garden** | Kunming, China | Diverse plant species and serene natural environment |
+| **Calgary_Fall** | Calgary, AB | Autumn colors in a neighborhood park |
 
-### Images
-All images in this repository are copyrighted by Hatef Dastour. All rights reserved. These images may not be used without express written permission. See the [LICENSE](LICENSE.md) file for full terms.
+---
+
+## 💻 API Reference
+
+### `Sample_Images` Class
+
+**Methods:**
+
+- `read_image(image_name)` - Load and return image as numpy array
+- `get_description(image_name)` - Retrieve detailed description of the image
+- `list_images()` - Get list of all available image names
+
+**Example:**
+
+```python
+import matplotlib.pyplot as plt
+from Sample_Images import Sample_Images
+
+images = Sample_Images()
+
+# Display an image
+img = images.read_image('Varenna')
+plt.imshow(img)
+plt.title(images.get_description('Varenna'))
+plt.axis('off')
+plt.show()
+```
+
+---
+
+## 📁 Repository Structure
+
+```plaintext
+image_library/
+├── Sample_Images.py        # Python interface for image access
+├── images/                 # Directory containing all images
+│   ├── Lake_Como.jpg
+│   ├── Varenna.jpg
+│   └── ...
+├── LICENSE.md             # License information
+└── README.md              # This file
+```
+
+---
+
+## ⚠️ Copyright Notice
+
+**All images in this repository are copyrighted.**
+
+© 2025 Hatef Dastour. All rights reserved.
+
+These images may **not** be used, reproduced, or distributed without express written permission from the copyright holder.
+
+---
+
+## 📄 License
+
+This repository contains both open-source code and copyrighted images:
+
+- **Code** (`Sample_Images.py`): Licensed under the [MIT License](LICENSE.md)
+- **Images**: Copyrighted by Hatef Dastour - All rights reserved
+
+See [LICENSE.md](LICENSE.md) for complete details.
+
+---
+
+## 📧 Contact
+
+**Dr. Hatef Dastour**  
+University of Missouri, Columbia
+
+- 🌐 **Website:** [hatefdastour.github.io](https://hatefdastour.github.io/)
+- 📧 **Email:** [dastourh@missouri.edu](mailto:dastourh@missouri.edu)
+- 🐙 **GitHub:** [@HatefDastour](https://github.com/HatefDastour)
+
+For image usage permissions or inquiries, please contact via email.
+
+---
+
+<div align="center">
+
+**Photography by Dr. Hatef Dastour**
+
+</div>
